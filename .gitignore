@@ -1,3 +1,25 @@
+.DS_Store
+
+//console for testing
+// console.log('this is loaded');
+
+//twitter keys
+exports.twitterKeys = {
+  consumer_key: 'oyeaxrl0P8ms3nfNbeZJRsBMF',
+  consumer_secret: 'i70CUcs0ke7wQASD1vWKLRBymY8tb0IggvylbCvFf4YfldLGHa',
+  access_token_key: '1582353811-0dBTzZGbTIfRISQikFcaMZAVP4x7AaHTzYJInsp',
+  access_token_secret: 'tgTDo61SmttevNoMhB1jTH10wzUO3DE4TP53fYSAWAWDY',
+}
+//spotify keys
+exports.spotifyKeys = {
+	id: "d2c5fc26a8314837b82a8aea731317c2",
+	secret: "ebd7b3671e5a4be0b45398dad304eac5"
+}
+//key for omdb given through hw
+exports.omdbKey = "40e9cece";
+
+
+
 # Logs
 logs
 *.log
@@ -56,4 +78,9 @@ typings/
 
 # dotenv environment variables file
 .env
+
+```
+node_modules
+.DS_Store
+```
 
